@@ -1,0 +1,23 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pywebview = "==3.2"
+numpy = "==1.18.2"
+tqdm = "==4.43.0"
+
+opencv-contrib-python = "==4.2.0.34"
+scipy = "==1.4.1"
+tensorflow = "==2.2.1"
+gluoncv = "==0.7.0"
+gdown = "==3.11.1"
+scikit-image = "==0.15.0"
+pillow = "==7.1.2"
+mxnet = "==1.6.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
